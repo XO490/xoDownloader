@@ -20,9 +20,14 @@ fun startParsing(albumUrl: String) {
     saveHtmlFile(html = html)
 
     val header: String? = html?.select("header.content__title")?.text()
-    val artist = header?.split("-")?.get(0)?.trim()
-    val album = header?.split("-")?.get(1)?.split("(")?.get(0)?.trim()
-    val year = header?.split("(")?.get(1)?.replace(")", "")
+
+    val parsBreadcrumb = html?.select("ol.breadcrumb")?.select("li")
+    val breadcrumb = ArrayList<String>()
+    parsBreadcrumb?.forEach { breadcrumb.add(it.text()) }
+
+    val artist = breadcrumb[breadcrumb.count() - 2]
+    val album = breadcrumb.last()
+    val year = html?.select("ul.icon-list")?.select("li")?.get(1)?.select("a")?.text()
 
     val tags: String? = html?.select("p.genre__labels")?.get(0)?.text()
         ?.replace("#", " | ")

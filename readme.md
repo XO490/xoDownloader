@@ -3,12 +3,14 @@
 [ ![xo](https://img.shields.io/badge/telegram-%40XO490-orange)](https://t.me/xo490)
 
 
-# [xoDownloader](https://github.com/XO490/xoDownloader.git) [ ![version](https://img.shields.io/badge/version-2.0.0-blueviolet)]()
+# [xoDownloader](https://github.com/XO490/xoDownloader.git) [ ![version](https://img.shields.io/badge/version-2.0.1-blueviolet)](https://github.com/XO490/xoDownloader.git)
 
 ### Download your favorite albums from https://musify.club 
 **For Albums only!** Not for one track
 
 ----
+
+[ ![screenshot](img1024.jpg)](https://github.com/XO490/xoDownloader.git)
 
 ### Usage:
 

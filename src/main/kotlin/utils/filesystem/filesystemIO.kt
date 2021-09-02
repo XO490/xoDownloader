@@ -1,5 +1,6 @@
 package utils.filesystem
 
+import utils.ANSI_CYAN
 import utils.ANSI_GREEN
 import utils.ANSI_RED
 import utils.ANSI_RESET
@@ -29,5 +30,5 @@ fun saveWebContext(data: ByteArray, path: String, filename: String) {
     File(path).mkdirs()
     val file = File(filename)
     file.writeBytes(data)
-    println(ANSI_GREEN + "DONE | $filename saved" + ANSI_RESET)
+    println(ANSI_GREEN + "DONE | $filename ${ANSI_CYAN}saved" + ANSI_RESET)
 }
