@@ -9,7 +9,7 @@
 
 ----
 
-###Usage:
+### Usage:
 
 `xoDownloader.jar <albumUrl>`
 
