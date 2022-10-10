@@ -9,9 +9,32 @@ const val VERSION: String = "2.0.2"
 const val useragent: String =
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.93 Safari/537.36"
 
+enum class OS {
+    LINUX, WINDOWS
+}
+
 /**
- * ANSI Colors for messages in terminals | LINUX
+ * ANSI Colors for messages in terminal | LINUX
+ *
+ * ANSI Colors Windows terminal
+ * 0 = Black
+ * 1 = Blue
+ * 2 = Green
+ * 3 = Аквамарин
+ * 4 = Красный
+ * 5 = Фиолетовый
+ * 6 = Желтый
+ * 7 = Белый
+ * 8 = Серый
+ * 9 = Светло-голубой
+ * A = Светло-зеленый
+ * В = Светлый аквамарин
+ * С = Светло-красный
+ * D = Светло-фиолетовый
+ * E = Светло-желтый
+ * F = Ярко-белый
  * */
+
 const val ANSI_RESET = "\u001B[0m"
 //const val ANSI_BLACK = "\u001B[30m"
 const val ANSI_RED = "\u001B[31m"
