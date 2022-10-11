@@ -2,7 +2,6 @@ import domains.startParsing
 import io.ktor.client.statement.*
 import utils.*
 import utils.filesystem.saveWebContext
-import utils.os.getOS
 import utils.web.ktorClient
 
 
@@ -24,7 +23,8 @@ suspend fun downloadContent() {
 
 
 suspend fun main(args: Array<String>) {
-    println("\n$MSG_APP_VER")
+    println(msgAppVer())
+//    println("\n$MSG_APP_VER")
     val param = getArgs(args = args)
     if (param["status"] != "") {
         startParsing(albumUrl = param["parsUrl"]!!)

@@ -3,7 +3,7 @@
 [ ![xo](https://img.shields.io/badge/telegram-%40XO490-orange)](https://t.me/xo490)
 
 
-# [xoDownloader](https://github.com/XO490/xoDownloader.git) [ ![version](https://img.shields.io/badge/version-2.0.2-blueviolet)](https://github.com/XO490/xoDownloader.git)
+# [xoDownloader](https://github.com/XO490/xoDownloader.git) [ ![version](https://img.shields.io/badge/version-2.0.3-blueviolet)](https://github.com/XO490/xoDownloader.git)
 
 ### Download your favorite albums from https://musify.club 
 **For Albums only!** Not for one track
@@ -17,7 +17,7 @@
 ```
 xoDownloader.jar -u=<albumUrl>
 
-··◌◌ xoDownloader v2.0.2 ◌◌··
+··◌◌ xoDownloader v2.0.3 ◌◌··
 -h	this help
 -v	version
 -u	url for pars and downloads album (example: -u=https://musify.club/release/mujuice-amore-e-morte-2016-699092)
