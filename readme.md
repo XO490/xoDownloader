@@ -42,7 +42,7 @@ java -jar xoDownloader.jar -u=https://musify.club/release/mujuice-amore-e-morte-
 
 - Console:
 - [x] coloring for linux
-- [ ] coloring for windows
+- [x] coloring for windows
 
 
 - GUI
